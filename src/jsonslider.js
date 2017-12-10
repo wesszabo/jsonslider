@@ -42,13 +42,22 @@
 					margin: "0 auto",
 					padding: 0,
 					backgroundColor: "inherit",
-					overflow: "hidden"
+					overflow: "hidden",
+					textAlign: "center"
 				},
 				figure: {
-					position: "absolute"
+					position: "relative",
+					width: "100%",
+					height: "100%"
 				},
 				img: {
-					width: "auto",
+					position: "absolute",
+					margin: "auto",
+					top: 0,
+					right: 0,
+					bottom: 0,
+					left: 0,
+					maxWidth: "100%",
 					maxWidth: "100%",
 					lineHeight: 0,
 					margin: "0 auto"
